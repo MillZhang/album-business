@@ -1,0 +1,113 @@
+$font-12:12px;
+$font-14:14px;
+$font-10:10px;
+$font-16:16px;
+$font-18:18px;
+//默认字号
+[data-dpr="1"] {
+    * {
+        font-size: $font-14;
+    }
+}
+
+[data-dpr="2"] {
+    * {
+        font-size: $font-14*2;
+    }
+}
+
+[data-dpr="3"] {
+    * {
+        font-size: $font-14*3;
+    }
+}
+
+[data-dpr="1"] {
+    .f10 {
+        font-size: $font-10;
+    }
+}
+
+[data-dpr="2"] {
+    .f10 {
+        font-size: $font-10*2;
+    }
+}
+
+[data-dpr="3"] {
+    .f10 {
+        font-size: $font-10*3;
+    }
+}
+
+[data-dpr="1"] {
+    .f12 {
+        font-size: $font-12;
+    }
+}
+
+[data-dpr="2"] {
+    .f12 {
+        font-size: $font-12*2;
+    }
+}
+
+[data-dpr="3"] {
+    .f12 {
+        font-size: $font-12*3;
+    }
+}
+
+[data-dpr="1"] {
+    .f14 {
+        font-size: $font-14;
+    }
+}
+
+[data-dpr="2"] {
+    .f14 {
+        font-size: $font-14*2;
+    }
+}
+
+[data-dpr="3"] {
+    .f14 {
+        font-size: $font-14*3;
+    }
+}
+
+[data-dpr="1"] {
+    .f16 {
+        font-size: $font-16;
+    }
+}
+
+[data-dpr="2"] {
+    .f16 {
+        font-size: $font-16*2;
+    }
+}
+
+[data-dpr="3"] {
+    .f16 {
+        font-size: $font-16*3;
+    }
+}
+
+[data-dpr="1"] {
+    .f18 {
+        font-size: $font-18;
+    }
+}
+
+[data-dpr="2"] {
+    .f18 {
+        font-size: $font-18*2;
+    }
+}
+
+[data-dpr="3"] {
+    .f18 {
+        font-size: $font-18*3;
+    }
+}

@@ -1,0 +1,140 @@
+
+.work-lib {
+  width: 100%;
+  height: 100%;
+}
+
+.work-lib.bg {
+  background: #EFEDED;
+}
+
+.work-lib .content {
+
+}
+
+.tab {
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  background: #ffffff;
+  border-bottom: 1px solid #cccccc;
+  text-align: center;
+  position: fixed;
+  top: 0;
+}
+
+.tab > a {
+  width: 49.5%;
+  display: block;
+  color: #929292;
+}
+
+.tab > a.active {
+  color: #000000;
+  font-weight: bold;
+}
+
+.tab > a:first-child {
+  border-right: 1px solid #929292;
+}
+
+.work {
+  width: 100%;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  padding-top: 0.5rem;
+}
+
+.work .item {
+  width: 30%;
+  margin: 0 0 0 2.5%;
+  position: relative;
+}
+
+.work .item img {
+  width: 100%;
+  height: 3rem;
+  box-shadow: 0 0 10px #ebebeb;
+}
+
+.book-shelf {
+  width: 100%;
+  position: relative;
+  height: 1.5rem;
+  bottom: 0.4rem;
+  z-index: -1;
+}
+
+.info {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.info > p {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.order {
+  width: 100%;
+  height: 100%;
+}
+
+.order .item {
+  margin-bottom: 0.5rem;
+  background: #ffffff;
+}
+
+.order .item .head {
+  height: 1rem;
+  line-height: 1rem;
+  padding-left: 0.3rem;
+}
+
+.order .item .body {
+  padding: 0.3rem;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.order .item .body .coverImg {
+  width: 40%;
+  margin-right: 0.3rem;
+}
+
+.order .item .body .coverImg img {
+  width: 100%;
+}
+
+.order .item .body .message > p {
+  margin-bottom: 0.3rem;
+}
+
+.order .item .total {
+  padding-right: 0.3rem;
+}
+
+.order .item .total, .order .item .buttons {
+  height: 1.2rem;
+  line-height: 1.2rem;
+  border-bottom: 1px solid #ebebeb;
+  padding-left: 0.3rem;
+}
+
+.order .item .buttons > a {
+  color: #E44046;
+  border: 1px solid #E44046;
+  border-radius: 5px;
+  margin-right: 0.4rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  padding: 0 0.3rem;
+  margin-top: 0.2rem;
+}
